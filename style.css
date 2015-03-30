@@ -1,0 +1,46 @@
+h1 {
+  text-align: center;
+  color: white;
+  font-family: "Comic Sans MS";
+  font-size: 30px;
+}
+
+body {
+  background-image: url("http://cdn-media.hollywood.com/images/638x425/1844948.jpg");
+  background-size: 1250px;
+}
+
+#board {
+  width: 31em;
+  height: 30em;
+  position: relative;
+  top: 30px;
+  left: 25%;
+}
+
+.box {
+  width: 10em;
+  height: 10em;
+  border: 1px solid black;
+  display: inline-block;
+  margin-bottom: 4px;
+  text-align: center;
+  line-height: 150px;
+}
+
+.X {
+  background-color: blue;
+  font-family: "Comic Sans MS";
+}
+
+.O {
+  background-color: yellow;
+  font-family: "Comic Sans MS";
+}
+
+button {
+  text-align: right;
+  color: #900;
+  font-size: 150%;
+  text-transform: uppercase;
+}
